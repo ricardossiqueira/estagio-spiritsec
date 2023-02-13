@@ -1,4 +1,4 @@
-# My NextJs Boilerplate
+# Estágio Spiritsec
 
 [<img align="left" src="https://www.codefactor.io/repository/github/ricardossiqueira/my_nextjs_boilerplate/badge"/>](https://www.codefactor.io/repository/github/ricardossiqueira/my_nextjs_boilerplate/badge)
 
@@ -6,33 +6,22 @@
 
 </br>
 
-## Run dev
+## Projeto
 
-```bash
-  yarn docker:dev # Docker
-  # or
-  yarn dev
-```
+Projeto clonado disponível em [ricardossiqueira/my_nextjs_boilerplate](https://www.github.com/ricardossiqueira/my_nextjs_boilerplate)
 
-## Run lint
+## Workflows
 
-```bash
-  yarn lint
-```
+- **codeql** - escaneia o código em busca de padrões inseguros
+- **superlinter** - reforçar um padrão de código
 
-## Start storybook
+- **deploy** - não configurado, tendo em vista que o deploy idealmente seria
+ realizado na Vercel e a configuração é automatizada, não foi configurado nenhum
+ pipeline para isso
+- **docker** - como o Docker nesse projeto é focado em facilitar o
+ desenvolvimento, também não foi configurada uma pipeline para isso
 
-```bash
-  yarn storybook
-```
+## Dependabot
 
-## Dependencies
-
-- chakra-ui
-- axios
-- nookies
-- yup
-- storybook
-- react-input-mask
-- react-hook-form
-- react-query
+- **dependabot** - configuração adicional para scan diário ignorando
+ determinadas dependências
