@@ -1,11 +1,9 @@
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
 version: 2
 updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
